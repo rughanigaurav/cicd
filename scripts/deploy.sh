@@ -20,4 +20,4 @@ npm run prod
 
 # Restart the application
 echo "Restarting the application..."
-sudo supervisorctl restart linx-fn
+npm restart
