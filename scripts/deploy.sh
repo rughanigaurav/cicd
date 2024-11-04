@@ -8,7 +8,7 @@ echo "Cleaning up existing deployment files..."
 rm -rf cicd/*  # This will remove everything in the cicd directory
 # Alternatively, you can specify just the appspec.yml
 # rm -f cicd/appspec.yml
-
+npm stop
 # Pull the latest code
 echo "Pulling latest code..."
 git pull origin main  # Change 'main' if your branch name is different
@@ -20,4 +20,4 @@ npm run prod
 
 # Restart the application
 echo "Restarting the application..."
-npm restart
+npm start
