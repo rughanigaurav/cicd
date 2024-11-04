@@ -1,0 +1,9 @@
+version: 0.0
+os: ubuntu:latest
+files:
+  - source: /
+    destination: /path/to/your/project
+hooks:
+  AfterInstall:
+    - location: scripts/deploy.sh
+      runas: ubuntu
