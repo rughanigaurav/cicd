@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Change to your project directory
-cd /home/ubuntu/project/linx-frontnend || exit
+cd /home/ubuntu/project/linx-frontnend/cicd || exit
 
 # Pull the latest code
 echo "Pulling latest code..."

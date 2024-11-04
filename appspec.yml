@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/sample-nodejs-app/
+    destination: /home/ubuntu/project/linx-frontend/cicd/
 hooks:
   AfterInstall:
     - location: scripts/deploy.sh
