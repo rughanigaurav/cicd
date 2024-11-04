@@ -1,13 +1,12 @@
 #!/bin/bash
 
 # Change to your project directory
-cd /path/to/your/project || exit
+cd /home/ubuntu/project/linx-frontnend || exit
 
 # Pull the latest code
 echo "Pulling latest code..."
-git pull origin main  # Change 'main' if your branch name is different
+git pull origin main
 
-# Install dependencies and run production build
 echo "Installing dependencies and running production build..."
 npm install
 npm run prod
