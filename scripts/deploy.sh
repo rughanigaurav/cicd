@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Change to your project directory
-cd /home/ubuntu/project/linx-frontend/ || exit
+cd /home/ubuntu/project/linx-frontend/cicd/ || exit
 
 # Clean up existing files in the cicd directory
 echo "Cleaning up existing deployment files..."
