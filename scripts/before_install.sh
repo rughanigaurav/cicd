@@ -5,4 +5,4 @@ cd /home/ubuntu/project/linx-frontend/cicd/ || exit
 
 echo "stop the node application...."
 
-npm stop
+pm2 stop src/index.js
