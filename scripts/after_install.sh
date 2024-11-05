@@ -1,15 +1,12 @@
-#!/bin/bash...
-
+#!/bin/bash
 
 cd /home/ubuntu/project/linx-frontend/cicd/ || exit
 
-# Pull...
-
+# Pull
 echo "Pulling latest code..."
 git pull
 
 
-# Install dependencies...
-
+# Install dependencies
 echo "Installing dependencies...."
 npm i
