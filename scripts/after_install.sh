@@ -8,4 +8,4 @@ git pull
 
 # Install dependencies
 echo "Installing dependencies..."
-npm i
+npm i express
