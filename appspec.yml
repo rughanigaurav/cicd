@@ -15,16 +15,16 @@ files:
     destination: ./home/ubuntu/project/linx-frontend/cicd
 hooks:
   BeforeInstall:
-    - location: ./home/ubuntu/project/linx-frontend/cicd/scripts/before_install.sh
+    - location: scripts/before_install.sh
       timeout: 300
       runas: ubuntu
 
   AfterInstall:
-    - location: ./home/ubuntu/project/linx-frontend/cicd/scripts/after_install.sh
+    - location: scripts/after_install.sh
       timeout: 300
       runas: ubuntu
 
   ApplicationStart:
-    - location: ./home/ubuntu/project/cicd/scripts/deploy.sh
+    - location: scripts/deploy.sh
       timeout: 300
       runas: ubuntu
