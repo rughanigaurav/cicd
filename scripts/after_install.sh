@@ -6,6 +6,7 @@ cd /home/ubuntu/project/linx-frontend/cicd/ || exit
 echo "Pulling latest code..."
 git pull
 
+
 # Install dependencies
-echo "Installing dependencies..."
+echo "Installing dependencies...."
 npm i express
