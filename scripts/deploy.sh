@@ -17,4 +17,4 @@
 # echo "Installing dependencies and running production build..."
 # npm i
 echo "Start Application...."
-pm2 restart src/index.js --env prod
+pm2 restart src/index.js
