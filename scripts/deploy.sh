@@ -4,4 +4,4 @@
 cd /home/ubuntu/project/linx-frontend/cicd/ || exit
 
 echo "Start Application...."
-npm start &
+pm2 node src/index.js
