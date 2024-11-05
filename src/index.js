@@ -3,7 +3,7 @@ const app = express();
 const PORT = 3000;
 
 app.get("/", (req, res) => {
-  res.send("Hello, CodePipeline!");
+  res.send("Hello, This is cicd code to check codepipeline for aws automation");
 });
 
 app.listen(PORT, () => {
