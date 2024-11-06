@@ -3,8 +3,6 @@
 # Change to your project directory
 cd /home/ubuntu/project/linx-frontend/cicd/ || exit
 
-git checkout staging
-
 echo "stop the node application...."
 
-sudo supervisorctl stop all
+pm2 stop src/index.js
