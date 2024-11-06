@@ -18,3 +18,8 @@ hooks:
     - location: scripts/deploy.sh
       timeout: 300
       runas: ubuntu
+
+  ValidateState:
+    - location: scripts/restart.sh
+      timeout: 300
+      runas: ubuntu
