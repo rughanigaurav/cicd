@@ -18,3 +18,8 @@ hooks:
     - location: scripts/deploy.sh
       timeout: 300
       runas: ubuntu
+
+  ReloadSupervisor:
+    - location: scripts/restart_supervisor.sh
+      timeout: 300
+      runas: ubuntu
