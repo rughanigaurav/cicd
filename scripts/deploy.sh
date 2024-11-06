@@ -3,5 +3,5 @@
 # Change to your project directory
 cd /home/ubuntu/project/linx-frontend/cicd/ || exit
 
-sudo supervisorctl restart all
+npm start &
 
