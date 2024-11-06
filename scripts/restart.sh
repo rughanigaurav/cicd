@@ -7,4 +7,4 @@ git checkout staging
 
 echo "stop the node application...."
 
-sudo supervisorctl stop all
+sudo supervisorctl restart all
