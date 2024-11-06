@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo supervisorctl start cicd
+sudo supervisorctl restart cicd
