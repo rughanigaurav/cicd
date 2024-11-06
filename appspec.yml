@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/project/linx-frontend/cicd
+    destination: ./home/ubuntu/project/linx-frontend/cicd/
 hooks:
   BeforeInstall:
     - location: scripts/before_install.sh
